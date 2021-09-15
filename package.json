@@ -7,7 +7,7 @@
     "url": "git+https://github.com/gomgul/wetube-reloaded.git"
   },
   "scripts": {
-    "dev": "nodemon -L --exec babel-node index.js"
+    "dev": "nodemon -L --exec babel-node src/server.js"
   },
   "author": "Here i am",
   "license": "MIT",
