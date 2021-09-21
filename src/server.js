@@ -1,6 +1,7 @@
+/*
 import express from "express";
 import morgan from "morgan"; // middleware를 return 해준다
-
+*/
 const PORT = 4000;
 
 const app = express();
