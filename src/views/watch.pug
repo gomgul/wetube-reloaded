@@ -1,8 +1,19 @@
-extends base.pug
+extends base
 
 
 
 block content
-    h3 #{video.views} #{video.views === 1 ? "view" : "views"}
+    div
+        p=video.description
+        small=video.createdAt
+    a(href=`${video.id}/edit`) Edit Video &rarr;
+    br
+    a(href=`${video.id}/delete`) Delete Video &rarr;
+
+<!--  h3 #{video.views} #{video.views === 1 ? "view" : "views"}
     a(href=`${video.id}/edit`) Edit Video &rarr;  // edit 앞에 /붙이니까 바로 edit으로 간다
-// relative url : /넣지마
+ relative url : /넣지마  
+
+ -->
+
+    
