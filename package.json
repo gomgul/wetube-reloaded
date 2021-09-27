@@ -8,8 +8,6 @@
   },
   "scripts": {
     "dev": "nodemon -L --exec babel-node src/server1.js"
-
-    
   },
   "author": "Here i am",
   "license": "MIT",
@@ -19,6 +17,7 @@
   "homepage": "https://github.com/gomgul/wetube-reloaded#readme",
   "dependencies": {
     "express": "^4.17.1",
+    "mongoose": "^6.0.7",
     "morgan": "^1.10.0",
     "pug": "^3.0.2"
   },
